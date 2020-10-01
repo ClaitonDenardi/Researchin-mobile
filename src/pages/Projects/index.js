@@ -30,8 +30,8 @@ export default function Projects() {
     });
 
     setProjects([...projects, ...response.data]);
-    setTotal(response.headers['x-total-count']);
     setPage(page + 1);
+    setTotal(projects.length);
     setLoading(false);
   }
 
