@@ -2,12 +2,21 @@
   "expo": {
     "name": "ResearchIn",
     "slug": "researchin",
+    "version": "1.0.0",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
-    "version": "1.0.0",
+    "ios": {
+      "bundleIdentifier": "com.cdp.researchin",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.cdp.researchin",
+      "versionCode": 1
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -20,9 +29,6 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+    ]
   }
 }
